@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i');
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Merriweather', serif;
+}
+
+
+i{
+	padding-left: 20px;
+}
+.fa{
+	font-size: 15px;
+}
+#green{
+	margin-left: 50px;
+	margin-top: 15px;
+}
+#dep{
+	height: 64px;
+	margin-top: -15px;
+	width: 180px;
+}
+
+#look{
+	margin-top: 25px;
+}
+.ball{
+	background-color: green;
+}
+
+.box {
+	width: 100%;
+	min-height: 100px;
+	box-shadow: 2px 3px 15px 0px #ccc;
+    border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.box1 {
+	width: 100%;
+	min-height: 100px;
+	box-shadow: 2px 3px 15px 0px #ccc;
+    border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+#pad{
+	margin-top: 5px;
+}
+
+.first{
+	width: 500px;
+	height: 250px;
+	margin-left: -30px;
+}
+#pok{
+	width: 270px;
+	height: 200px;
+}
+.nar{
+	text-align: center;
+	background-color: blue;
+	
+}
+.text{
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.get{
+	color: white;
+	margin-left: 270px;
+}
+#all{
+	margin-top: -20px;
+	
+}
+.al{
+	height: 320px;
+}
+
+
+#shop{
+	padding-left: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+.img1{
+	width: 500px;
+	height: 250px;
+}
+
+#second{
+	
+	margin-left:3px;
+}
+#pok{
+	width: 450px;
+	height: 300px;
+	}
+.get{
+	margin-left: 30px;
+}
+}
+/*body{
+	background-image: url("../img/imgs.jpg");
+	background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+	}
+	.wrap{
+margin-left: 80px;
+}
+img{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+p{
+	font-size: 15px;
+}
+.img1{
+	width: 150px;
+	height: 200px;
+	border: 3px solid #96C332;
+	border-radius: 5px;
+	margin-left: 70px;
+
+}
+span{
+	font-size: 15px;
+	margin-left: 90px;
+}
+#jon{
+	font-size: 20px;
+	color: #96C332;
+	margin-left: 90px;
+
+}
+footer{
+	width: 100%;
+	background-color: #96C332;
+	height: 70px;
+	margin-top: 40px;
+}
+
